@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Introduction</title>
+        <style>
+            img{
+                float: right;
+                height: 200px;
+                width: 350px;
+                margin-right: 20px;
+            }
+            
+            body{
+                font-size: 30px;
+                margin-top: 20px;
+            }
+
+            button{
+                margin-right: 80px;
+                font-size: x-large;
+                background-color: grey;
+                color: white;
+            }
+
+            div{
+                margin: 15px;
+            }
+
+            li{
+                margin-top: 10px;
+            }
+
+            #details{
+                margin-left: 50px;
+                font-size: 30px;
+                margin-right: 1350px;
+                border: 4px solid purple;               
+                border-radius: 20px;
+                padding-left: 20px;
+                background-color: lightgrey;
+                font-style: oblique;
+                font-weight: bold;
+                line-height: 50px;
+            }
+
+            #heading{
+                text-align: center;
+                font-size: 50px; 
+                font-weight: bolder;
+                color: purple;
+            }            
+
+            #intro{
+                margin: 50px;
+                border: 4px solid purple;               
+                border-radius: 20px;
+                background-color: lightgrey;
+                padding: 40px;
+            }
+
+            form{
+                border: 4px solid purple;
+                border-radius: 20px;
+                background-color: lightgrey;
+                padding: 40px;
+                margin: 50px;
+            }
+
+            table{
+                margin-top: 30px;
+            }
+
+            p{
+                text-align: center;
+                font-size: 40px;
+                font-weight: bolder;
+                font-family: 'Times New Roman', Times, serif;
+                font-style: italic;
+            }
+
+            input{
+                font-size: 25px;
+                border: 2px solid purple;
+                border-radius: 8px;
+                padding: 4px;
+            }
+        </style>
+    </head>
+    <body>
+        <p><span style="background-color: rgb(187, 141, 187);">Employee Details</span></p>
+        <div style="text-align: right;"><img src="/home/odoo/Pictures/Odoo-Logo.wine.png" alt="Odoo logo"></div>
+        <div id="details">
+            <div>Name : Khushi Patel</div>
+            <div>Email : abc@gmail.com</div>
+            <div>Mobile No : 1234567890</div>
+        </div>
+        <div id="intro">    
+            <div style="font-size: 50px; color: purple; font-weight: bolder;">Software Developer Intern</div>
+            <ul>
+                <li> @OdooIndia</li>
+                <li> Age : 21</li>
+                <li> Joining date : 23rd Jan, 2023</li>
+            </ul>
+        </div>
+        <form action="https://www.odoo.com" method="get" target="_blank">
+            <label id="heading">Personal Details</label><br/><br/>
+                <input type="text" placeholder="Enter Name" name="uname"/><br/><br/>
+                <input type="text" placeholder="Enter Surname" name="sname"/><br/><br/>
+                <input type="number" placeholder="Enter Age" name="age"/><br/><br/>
+                <label>Select Skills : </label>
+                    <input type="checkbox" name="JavaScript" value="JavaScript"/>
+                    <label>JavaScript</label>
+                    <input type="checkbox" name="Python" value="Python"/>
+                    <label>Python</label>
+                    <input type="checkbox" name="OWL" value="OWL"/>
+                    <label>OWL</label><br/><br/>
+            <button type="submit">Submit</button> 
+            <button type="reset">Reset</button>
+        </form>
+    </body>
+</html>
